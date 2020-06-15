@@ -1,0 +1,23 @@
+springdoc:
+  packages-to-scan: br.gov.pb.codata
+
+spring:
+  datasource:
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
+  flyway:
+    enabled: false
+  data:
+    rest:
+      base-path: /rest
+
+logging:
+  level:
+    br.gov.pb.codata: warn
+    root: warn
+    web: warn
+    sql: warn
+
+management:
+  endpoint.health.show-details: always

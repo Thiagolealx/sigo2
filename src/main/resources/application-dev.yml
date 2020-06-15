@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql:application}
+    username: ${DATABASE_USERNAME:postgres}
+    password: ${DATABASE_PASSWORD:postgres}
+  flyway:
+    enabled: true
+logging:
+  level:
+    br.gov.pb.codata: info
+    web: trace
+    sql: trace
+    org.springframework.cache: trace
