@@ -1,3 +1,6 @@
+application:
+  oidc.client-id: ${OIDC_CLIENT_ID:application}
+
 spring:
   datasource:
     url: ${DATABASE_URL:jdbc:postgresql:application}
@@ -5,6 +8,10 @@ spring:
     password: ${DATABASE_PASSWORD:postgres}
   flyway:
     enabled: true
+  security:
+    oauth2.resourceserver.jwt.issuer-uri: ${OIDC_SERVER_URL:http://localhost:8888/auth/realms/paraiba}
+
+
 logging:
   level:
     br.gov.pb.codata: info
