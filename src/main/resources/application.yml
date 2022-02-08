@@ -10,7 +10,7 @@ spring:
     username: ${DATABASE_USERNAME}
     password: ${DATABASE_PASSWORD}
   flyway:
-    enabled: false
+    enabled: true
   security:
     oauth2.resourceserver.jwt.issuer-uri: ${OIDC_SERVER_URL:https://sso.codata.pb.gov.br/auth/realms/paraiba}
 
