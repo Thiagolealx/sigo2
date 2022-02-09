@@ -1,4 +1,4 @@
-package br.gov.pb.codata.application.config;
+package br.gov.pb.codata.sigo2.config;
 
 import lombok.RequiredArgsConstructor;
 import net.minidev.json.JSONArray;

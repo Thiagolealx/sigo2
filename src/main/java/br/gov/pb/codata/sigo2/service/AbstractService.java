@@ -1,4 +1,4 @@
-package br.gov.pb.codata.application.service;
+package br.gov.pb.codata.sigo2.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.JpaRepository;

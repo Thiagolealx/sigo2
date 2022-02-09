@@ -1,8 +1,9 @@
-package br.gov.pb.codata.application.repository;
+package br.gov.pb.codata.sigo2.repository;
 
-import br.gov.pb.codata.application.domain.ExampleRelatedModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.querydsl.QuerydslPredicateExecutor;
+
+import br.gov.pb.codata.sigo2.domain.ExampleRelatedModel;
 
 import java.util.Optional;
 

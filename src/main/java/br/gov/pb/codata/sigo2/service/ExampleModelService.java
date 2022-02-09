@@ -1,7 +1,8 @@
-package br.gov.pb.codata.application.service;
+package br.gov.pb.codata.sigo2.service;
 
-import br.gov.pb.codata.application.domain.ExampleModel;
-import br.gov.pb.codata.application.repository.ExampleModelRepository;
+import br.gov.pb.codata.sigo2.domain.ExampleModel;
+import br.gov.pb.codata.sigo2.repository.ExampleModelRepository;
+
 import org.springframework.stereotype.Service;
 
 @Service

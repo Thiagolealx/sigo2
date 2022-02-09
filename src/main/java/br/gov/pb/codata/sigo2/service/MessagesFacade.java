@@ -1,4 +1,4 @@
-package br.gov.pb.codata.application.service;
+package br.gov.pb.codata.sigo2.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.MessageSource;

@@ -1,4 +1,4 @@
-package br.gov.pb.codata.application.exception;
+package br.gov.pb.codata.sigo2.exception;
 
 import lombok.Getter;
 import org.springframework.http.HttpStatus;

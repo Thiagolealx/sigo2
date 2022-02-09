@@ -1,8 +1,10 @@
-package br.gov.pb.codata.application.domain;
+package br.gov.pb.codata.sigo2.domain;
 
-import br.gov.pb.codata.application.domain.behavior.Identifiable;
-import br.gov.pb.codata.application.domain.behavior.Timestampable;
-import com.fasterxml.jackson.annotation.JsonIgnore;import lombok.*;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import br.gov.pb.codata.sigo2.domain.behavior.Identifiable;
+import br.gov.pb.codata.sigo2.domain.behavior.Timestampable;
+import lombok.*;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;

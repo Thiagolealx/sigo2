@@ -1,10 +1,10 @@
-package br.gov.pb.codata.application.web.controller;
+package br.gov.pb.codata.sigo2.web.controller;
 
-import br.gov.pb.codata.application.domain.ExampleRelatedModel;
-import br.gov.pb.codata.application.exception.NotFoundException;
-import br.gov.pb.codata.application.service.ExampleModelService;
-import br.gov.pb.codata.application.service.ExampleRelatedModelService;
-import br.gov.pb.codata.application.web.dto.ResultResponse;
+import br.gov.pb.codata.sigo2.domain.ExampleRelatedModel;
+import br.gov.pb.codata.sigo2.exception.NotFoundException;
+import br.gov.pb.codata.sigo2.service.ExampleModelService;
+import br.gov.pb.codata.sigo2.service.ExampleRelatedModelService;
+import br.gov.pb.codata.sigo2.web.dto.ResultResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

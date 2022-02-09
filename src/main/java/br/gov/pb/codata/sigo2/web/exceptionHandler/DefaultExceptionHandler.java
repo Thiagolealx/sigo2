@@ -1,9 +1,9 @@
-package br.gov.pb.codata.application.web.exceptionHandler;
+package br.gov.pb.codata.sigo2.web.exceptionHandler;
 
-import br.gov.pb.codata.application.exception.HttpException;
-import br.gov.pb.codata.application.exception.NotFoundException;
-import br.gov.pb.codata.application.service.MessagesFacade;
-import br.gov.pb.codata.application.web.dto.ResultResponse;
+import br.gov.pb.codata.sigo2.exception.HttpException;
+import br.gov.pb.codata.sigo2.exception.NotFoundException;
+import br.gov.pb.codata.sigo2.service.MessagesFacade;
+import br.gov.pb.codata.sigo2.web.dto.ResultResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

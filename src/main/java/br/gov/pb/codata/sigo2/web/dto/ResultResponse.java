@@ -1,4 +1,4 @@
-package br.gov.pb.codata.application.web.dto;
+package br.gov.pb.codata.sigo2.web.dto;
 
 import lombok.Getter;
 
