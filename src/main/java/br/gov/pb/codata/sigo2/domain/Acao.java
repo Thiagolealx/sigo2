@@ -14,25 +14,27 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+
 @Entity
-@Table(name = "tb_empresa")
+@Table(name = "tb_acao")
 @Getter
 @Setter
 @NoArgsConstructor
-@EqualsAndHashCode(of = {"id", "nome"})
+@EqualsAndHashCode(of = {"id", "descricao"})
 
-public class Empresa  implements Identifiable<Long> {
+public class Acao implements Identifiable<Long> {
 
     @Id
     @Column( name = "id", updatable = false, unique = true )
-    @SequenceGenerator( name = "empresa_seq_generator", sequenceName = "seq_empresa", allocationSize = 1 )
-    @GeneratedValue( strategy = GenerationType.SEQUENCE, generator = "empresa_seq_generator" )
+    @SequenceGenerator( name = "acao_seq_generator", sequenceName = "seq_acao", allocationSize = 1 )
+    @GeneratedValue( strategy = GenerationType.SEQUENCE, generator = "acao_seq_generator" )
     private Long id;
 
-    private String nome;
+    private String descricao;
 
-    @Column(unique = true)
-    private Integer cnpj;
+    private Integer ano;
+
+    private String codigo;
 
     private Boolean ativo;
 }
